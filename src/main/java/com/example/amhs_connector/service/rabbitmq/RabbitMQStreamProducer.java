@@ -1,5 +1,4 @@
 package com.example.amhs_connector.service.rabbitmq;
-
 import org.springframework.rabbit.stream.producer.RabbitStreamTemplate;
 import org.springframework.stereotype.Service;
 

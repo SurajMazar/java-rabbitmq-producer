@@ -1,14 +1,10 @@
 package com.example.amhs_connector.config;
 
-import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.stream.Environment;
 import com.rabbitmq.stream.impl.StreamEnvironmentBuilder;
-import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.amqp.RabbitProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.rabbit.stream.config.StreamRabbitListenerContainerFactory;
 import org.springframework.rabbit.stream.producer.RabbitStreamTemplate;
 
 @Configuration
